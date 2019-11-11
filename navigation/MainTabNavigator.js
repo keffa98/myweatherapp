@@ -26,7 +26,7 @@ const tabNavigator = createMaterialBottomTabNavigator(
                 tabBarIcon: ({ tintColor }) => (
                     <Icon color={tintColor} size={25} name={'ios-star'} />
                 ),
-                barStyle: { backgroundColor: 'pink' }
+                barStyle: { backgroundColor: 'black' }
             }
         },
 
@@ -37,7 +37,7 @@ const tabNavigator = createMaterialBottomTabNavigator(
                 tabBarIcon: ({ tintColor }) => (
                     <Icon color={tintColor} size={25} name={'ios-settings'} />
                 ),
-                barStyle: { backgroundColor: 'blue' }
+                barStyle: { backgroundColor: 'black' }
             }
         }
     },
